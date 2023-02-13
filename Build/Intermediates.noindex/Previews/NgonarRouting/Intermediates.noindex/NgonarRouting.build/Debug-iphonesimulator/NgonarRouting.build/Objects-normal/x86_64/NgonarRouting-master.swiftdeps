@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "e0d87378b97da8c2aac6a07c99b08c44c22f7ea1cd357751dbed911f77ed0a05"
+build_start_time: [1676323931, 397859096]
+build_end_time: [1676323931, 833727836]
+inputs:
+  "/Users/ngonar/Documents/Apple/NgonarRouting/NgonarRouting/API/APIFetcher.swift": [1676323809, 838683605]
+  "/Users/ngonar/Documents/Apple/NgonarRouting/NgonarRouting/ContentView.swift": !private [1676323924, 656552791]
+  "/Users/ngonar/Documents/Apple/NgonarRouting/NgonarRouting/Model/Menu.swift": [1676323654, 848385334]
+  "/Users/ngonar/Documents/Apple/NgonarRouting/NgonarRouting/Model/UsersData.swift": [1676323413, 91873168]
+  "/Users/ngonar/Documents/Apple/NgonarRouting/NgonarRouting/NgonarRoutingApp.swift": [1676322360, 74782371]
+  "/Users/ngonar/Documents/Apple/NgonarRouting/NgonarRouting/Routing.swift": [1676323851, 711063861]
+  "/Users/ngonar/Documents/Apple/NgonarRouting/NgonarRouting/View1.swift": [1676323924, 672582387]
+  "/Users/ngonar/Documents/Apple/NgonarRouting/NgonarRouting/View2.swift": [1676323879, 520269155]
