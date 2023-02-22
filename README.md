@@ -11,7 +11,7 @@ The idea is based on these points :
 Let's say you have set the backend with certain roles which should have certain access to certain view.
 Then we got this response as an example.
 
-```
+```json
        {"rc":"00",
         "message":"Success",
         "data":
@@ -45,7 +45,7 @@ They are the "Menu 1" and "Menu 2"
 
 You can see that each menu has and identifier "menu_obj":"100" and "menu_obj":"101"
 
-```
+```swift
 let abenk_map = [
     "100": AbenkRouting.view1,
     "101": AbenkRouting.view2
@@ -53,7 +53,7 @@ let abenk_map = [
 ```
 Right here we are mapping the identifier. we create a dictionary. So that later we can call the view based on the defined map.
 
-```
+```swift
 enum AbenkRouting: Int, CaseIterable {
     case view1
     case view2
@@ -72,7 +72,7 @@ Then we create an enum that define the View that we are going to call.
 
 Finally on the view that we are going to show all the buttons that will navigate to the destined View.
 
-```
+```swift
 ForEach (menus) { menu in                       
      NavigationLink(destination: abenk_map[menu.obj]?.destination) {
          VStack(alignment: .leading) {
