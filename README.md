@@ -99,6 +99,8 @@ This is applicable to the next View which is dynamically related to ACL / RBAC o
 
 <img src="https://miro.medium.com/v2/resize:fit:1350/1*v_8u6fwXpJvE6_0RpkpsEw.gif" width="300" >
 
+The article for this code is on [Medium](https://medium.com/@ngonar/one-concurrency-recipe-with-mq-flavored-line-81259a1c25e2)
+
 Hope this help with your project.
 
 Salam,
